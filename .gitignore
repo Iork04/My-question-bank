@@ -1,0 +1,5 @@
+*.exe
+*.cph
+*.bin
+TMP*
+in.in
