@@ -4,7 +4,7 @@
 using namespace std;
 const int N = 1e5 + 10;
 int n, q, target;
-vector<pair<int, int>> p(N);
+vector<i64<int, int>> p(N);
 
 int find(int v)
 {

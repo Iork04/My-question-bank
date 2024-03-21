@@ -3,7 +3,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int n, m;
-vector<pair<int, int>> t[1505];
+vector<i64<int, int>> t[1505];
 vector<int> in(1505);
 vector<int> ans(1505);
 queue<int> q;

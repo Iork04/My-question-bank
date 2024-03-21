@@ -10,7 +10,7 @@ vector<vector<int>> m(310, vector<int>(310, 1e9 + 10)); // 地块最早被摧毁
 
 void bfs()
 {
-    queue<pair<int, int>> que;
+    queue<i64<int, int>> que;
 
     if (m[1][1] > 0)
     {
@@ -20,7 +20,7 @@ void bfs()
 
     while (!que.empty())
     {
-        pair<int, int> cur = que.front();
+        i64<int, int> cur = que.front();
         que.pop();
         for (int i = 0; i < 4; ++i)
         {

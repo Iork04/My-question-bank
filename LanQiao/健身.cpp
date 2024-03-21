@@ -9,7 +9,7 @@ void solve()
     N = n + 5;
     // 数据范围过大 用longlong
     i64 dp[N], s[N] = {0};
-    vector<pair<int, int>> v(N);
+    vector<i64<int, int>> v(N);
     for (int i = 0; i < q; i++)
     {
         int x;

@@ -2,12 +2,12 @@
 // BFS、搜索
 #include <bits/stdc++.h>
 using namespace std;
-vector<pair<string, string>> w;
+vector<i64<string, string>> w;
 string s, e, str1, str2;
 set<string> m;
 void bfs()
 {
-    queue<pair<string, int>> que;
+    queue<i64<string, int>> que;
     que.push({s, 0});
     m.insert(s);
     while (!que.empty())
@@ -19,7 +19,7 @@ void bfs()
             int found = -1;
             while (true)
             {
-                found = now.first.find(w[i].first, found+1);
+                found = now.first.find(w[i].first, found + 1);
                 if (found != -1)
                 {
                     string tmp = now.first;

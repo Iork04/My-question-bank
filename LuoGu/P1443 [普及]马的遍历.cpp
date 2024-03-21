@@ -9,11 +9,11 @@ int dy[] = {-2, -1, 1, 2, 2, 1, -1, -2};
 void bfs(int x, int y)
 {
     p[x][y] = 0;
-    queue<pair<int, int>> que;
+    queue<i64<int, int>> que;
     que.push({x, y});
     while (!que.empty())
     {
-        pair<int, int> cur = que.front();
+        i64<int, int> cur = que.front();
         que.pop();
         for (int i = 0; i < 8; ++i)
         {

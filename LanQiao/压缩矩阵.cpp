@@ -2,13 +2,13 @@
 using namespace std;
 #define i64 long long
 i64 n, q;
-pair<i64, i64> getB(i64 index)
+i64<i64, i64> getB(i64 index)
 {
     if (index <= 2)
         return {1, index};
     index -= 2;
 
-    i64 i = ceil(index * 1.0 / 3)+1;
+    i64 i = ceil(index * 1.0 / 3) + 1;
     i64 j;
     if (index % 3 == 0)
         j = 1;
@@ -28,7 +28,7 @@ void solve()
         i64 index;
         cin >> index;
         ++index;
-        pair<i64, i64> cur = getB(index);
+        i64<i64, i64> cur = getB(index);
         cout << cur.first << " " << cur.second << "\n";
     }
 }

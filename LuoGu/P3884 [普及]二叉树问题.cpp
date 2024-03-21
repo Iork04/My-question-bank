@@ -19,7 +19,7 @@ int getDepth(int cur)
 
 int bfs(int x)
 {
-    queue<pair<int, int>> q;
+    queue<i64<int, int>> q;
     v[x] = 1;
     v[0] = 1;
     q.push({x, 0});
